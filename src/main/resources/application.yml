@@ -7,10 +7,13 @@ spring:
         auto: true
     profiles:
             active: dev
+
 server:
     port: 84
+
 logging:
     config: classpath:logback/logback-spring.xml
+
 druid:
     primary:
         initial-size: 2

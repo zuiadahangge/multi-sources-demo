@@ -9,7 +9,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
  *
  */
 @SpringBootApplication
-@EnableAutoConfiguration
 @EnableAsync
 //@MapperScan("com.zh.dao.interfaces")
 public class Application
